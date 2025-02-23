@@ -25,32 +25,34 @@ El sistema proporciona funcionalidades CRUD (Crear, Leer, Actualizar y Eliminar)
 # 2️⃣ Estructura del Proyecto
 El código está organizado en paquetes dentro del entorno de desarrollo NetBeans.
 
+📂 Guía 1
 
-📂 feria-empresarial
+┗ 📂 Actividad 2 Feria
 
-┣ 📂 src/com/feria/model/ (Contiene las clases del modelo de datos)
+┃ ┗📂 feria
 
-┃ ┣ 📄 Empresa.java
+┃ ┣ 📂 src/main/java/com/feria/model/ (Contiene las clases del modelo de datos)
 
-┃ ┣ 📄 Stand.java
+┃ ┃ ┣ 📄 Empresa.java
 
-┃ ┣ 📄 Visitante.java
+┃ ┃ ┣ 📄 Stand.java
 
-┃ ┗ 📄 Visita.java
+┃ ┃ ┣ 📄 Visitante.java
 
-┣ 📂 src/com/feria/manager/ (Contiene la lógica del negocio y gestión de datos)
+┃ ┃ ┗ 📄 Visita.java
 
-┃ ┗ 📄 FeriaManager.java
+┃ ┣ 📂 src/main/java/com/feria/manager/ (Contiene la lógica del negocio y gestión de datos)
 
-┣ 📂 src/com/feria/main/ (Contiene la clase principal para ejecutar el programa)
+┃ ┃ ┗ 📄 FeriaManager.java
 
-┃ ┗ 📄 Main.java
+┃ ┣ 📂 src/main/java/com/feria/main/ (Contiene la clase principal para ejecutar el programa)
 
-┣ 📂 test/com/feria/tests/ (Contiene las pruebas unitarias con JUnit)
+┃ ┃ ┗ 📄 Main.java
 
-┃ ┗ 📄 FeriaManagerTest.java
+┃ ┣ 📂 src/test/java/ (Contiene las pruebas unitarias con JUnit)
 
-┗ 📄 README.md (Archivo con información del proyecto)
+┃ ┃ ┗ 📄 FeriaManagerTest.java
+
 
 # 🔹 Requisitos Previos
 ✔ Tener instalado Java (JDK 11 o superior)
