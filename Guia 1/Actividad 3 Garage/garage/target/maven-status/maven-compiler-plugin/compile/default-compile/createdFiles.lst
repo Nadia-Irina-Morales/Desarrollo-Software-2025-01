@@ -1,0 +1,7 @@
+com\garage\model\Automovil.class
+com\garage\manager\Reporte.class
+com\garage\model\Camion.class
+com\garage\main\Main.class
+com\garage\manager\Parqueadero.class
+com\garage\model\Motocicleta.class
+com\garage\model\Vehiculo.class
